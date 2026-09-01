@@ -1,0 +1,12 @@
+.DS_Store
+/ROMS/
+/build*/
+/Phalanx.app/
+/config.ini
+/keybinds.ini
+/rom.cfg
+/saves/
+
+
+# Recompiled game code: ROM-derived, regenerate with snesrecomp v2 emit_bank
+/src/gen/

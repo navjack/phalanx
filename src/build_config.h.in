@@ -1,0 +1,4 @@
+#pragma once
+
+#define PHALANX_DEV_ROM_PATH "@CMAKE_SOURCE_DIR@/ROMS/Phalanx (USA).sfc"
+

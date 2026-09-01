@@ -1,0 +1,1036 @@
+{
+  "format_version": 1,
+  "mapping": "lorom",
+  "rom_size": 1048576,
+  "rom_sha256": "0663330bc061f4b768fa1806610878ef6e6cf546f36041ae087c8e55703693b8",
+  "segments": [
+    {
+      "name": "bank00_reset",
+      "pc_start": 0,
+      "pc_end": 195,
+      "kind": "65816_code",
+      "source": "decomp/bank00_reset.asm"
+    },
+    {
+      "name": "unclassified_rom",
+      "pc_start": 195,
+      "pc_end": 213,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank00_disable_nmi",
+      "pc_start": 213,
+      "pc_end": 225,
+      "kind": "65816_code",
+      "source": "decomp/bank00_disable_nmi.asm"
+    },
+    {
+      "name": "bank00_enable_nmi",
+      "pc_start": 225,
+      "pc_end": 237,
+      "kind": "65816_code",
+      "source": "decomp/bank00_enable_nmi.asm"
+    },
+    {
+      "name": "bank00_init_dma",
+      "pc_start": 237,
+      "pc_end": 360,
+      "kind": "65816_code",
+      "source": "decomp/bank00_init_dma.asm"
+    },
+    {
+      "name": "unclassified_before_sprite_tables",
+      "pc_start": 360,
+      "pc_end": 390,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank00_clear_sprite_tables",
+      "pc_start": 390,
+      "pc_end": 429,
+      "kind": "65816_code",
+      "source": "decomp/bank00_clear_sprite_tables.asm"
+    },
+    {
+      "name": "bank00_upload_caller_81ad",
+      "pc_start": 429,
+      "pc_end": 452,
+      "kind": "65816_code",
+      "source": "decomp/bank00_upload_caller_81ad.asm"
+    },
+    {
+      "name": "bank00_upload_caller_81c4",
+      "pc_start": 452,
+      "pc_end": 482,
+      "kind": "65816_code",
+      "source": "decomp/bank00_upload_caller_81c4.asm"
+    },
+    {
+      "name": "bank00_upload_caller_81e2",
+      "pc_start": 482,
+      "pc_end": 512,
+      "kind": "65816_code",
+      "source": "decomp/bank00_upload_caller_81e2.asm"
+    },
+    {
+      "name": "bank00_upload_caller_8200",
+      "pc_start": 512,
+      "pc_end": 569,
+      "kind": "65816_code",
+      "source": "decomp/bank00_upload_callers_8200_821e.asm"
+    },
+    {
+      "name": "bank00_upload_dma_tail",
+      "pc_start": 569,
+      "pc_end": 602,
+      "kind": "65816_code",
+      "source": "decomp/bank00_upload_dma_tail.asm"
+    },
+    {
+      "name": "unclassified_825A_8416",
+      "pc_start": 602,
+      "pc_end": 753,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank00_forced_blank_guard",
+      "pc_start": 753,
+      "pc_end": 792,
+      "kind": "65816_code",
+      "source": "decomp/bank00_forced_blank_guard.asm"
+    },
+    {
+      "name": "unclassified_before_wait_ppu",
+      "pc_start": 792,
+      "pc_end": 832,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank00_wait_ppu_latch",
+      "pc_start": 832,
+      "pc_end": 843,
+      "kind": "65816_code",
+      "source": "decomp/bank00_wait_ppu_latch.asm"
+    },
+    {
+      "name": "unclassified_before_nmi",
+      "pc_start": 843,
+      "pc_end": 1046,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank00_nmi_prologue",
+      "pc_start": 1046,
+      "pc_end": 1084,
+      "kind": "65816_code",
+      "source": "decomp/bank00_nmi_prologue.asm"
+    },
+    {
+      "name": "unclassified_after_nmi_prologue",
+      "pc_start": 1084,
+      "pc_end": 2116,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank00_irq_rti",
+      "pc_start": 2116,
+      "pc_end": 2117,
+      "kind": "65816_code",
+      "source": "decomp/bank00_irq.asm"
+    },
+    {
+      "name": "unclassified_after_irq",
+      "pc_start": 2117,
+      "pc_end": 32768,
+      "kind": "unknown",
+      "source": "base_rom"
+    }
+    ,{
+      "name": "bank01_init_prologue",
+      "pc_start": 32768,
+      "pc_end": 33311,
+      "kind": "65816_code",
+      "source": "decomp/bank01_init_prologue.asm"
+    },
+    {
+      "name": "unclassified_after_bank01_prologue",
+      "pc_start": 33311,
+      "pc_end": 33312,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank01_display_parameter_table",
+      "pc_start": 33312,
+      "pc_end": 33344,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "unclassified_after_bank01_table",
+      "pc_start": 33344,
+      "pc_end": 35995,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank01_object_init_prologue",
+      "pc_start": 35995,
+      "pc_end": 36095,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_init_prologue.asm"
+    },
+    {
+      "name": "bank01_object_init_branch",
+      "pc_start": 36095,
+      "pc_end": 36097,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_init_branch.asm"
+    },
+    {
+      "name": "bank01_object_exit_branch",
+      "pc_start": 36097,
+      "pc_end": 36100,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_exit_branch.asm"
+    },
+    {
+      "name": "bank01_object_fill_loop",
+      "pc_start": 36100,
+      "pc_end": 36115,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_fill_loop.asm"
+    },
+    {
+      "name": "bank01_object_copy_loops",
+      "pc_start": 36115,
+      "pc_end": 36153,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_copy_loops.asm"
+    },
+    {
+      "name": "bank01_object_index_loop",
+      "pc_start": 36153,
+      "pc_end": 36211,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_index_loop.asm"
+    },
+    {
+      "name": "bank01_object_branch_setup",
+      "pc_start": 36211,
+      "pc_end": 36242,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_branch_setup.asm"
+    },
+    {
+      "name": "bank01_object_discovery_block",
+      "pc_start": 36242,
+      "pc_end": 36280,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_discovery_block.asm"
+    },
+    {
+      "name": "bank01_object_work_zero_fill",
+      "pc_start": 36280,
+      "pc_end": 36305,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_work_zero_fill.asm"
+    },
+    {
+      "name": "bank01_object_work_handler_branch",
+      "pc_start": 36305,
+      "pc_end": 36319,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_work_handler_branch.asm"
+    },
+    {
+      "name": "bank01_object_work_search",
+      "pc_start": 36319,
+      "pc_end": 36363,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_work_search.asm"
+    },
+    {
+      "name": "bank01_object_existing_handler",
+      "pc_start": 36363,
+      "pc_end": 36396,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_existing_handler.asm"
+    },
+    {
+      "name": "bank01_object_work_continuation",
+      "pc_start": 36396,
+      "pc_end": 36441,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_work_continuation.asm"
+    },
+    {
+      "name": "bank01_object_exit_loop",
+      "pc_start": 36441,
+      "pc_end": 36470,
+      "kind": "65816_code",
+      "source": "decomp/bank01_object_exit_loop.asm"
+    },
+    {
+      "name": "unclassified_after_bank01_object_exit",
+      "pc_start": 36470,
+      "pc_end": 995906,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_init",
+      "pc_start": 995906,
+      "pc_end": 995964,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_init.asm",
+      "spc_aram_start": 2048
+    },
+    {
+      "name": "bank1e_spc700_dsp_dispatch_gate",
+      "pc_start": 995964,
+      "pc_end": 995970,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_dsp_dispatch_gate.asm",
+      "spc_aram_start": 2106
+    },
+    {
+      "name": "bank1e_spc700_dsp_dispatch",
+      "pc_start": 995970,
+      "pc_end": 995996,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_dsp_dispatch.asm",
+      "spc_aram_start": 2112
+    },
+    {
+      "name": "bank1e_spc700_dsp_dispatch_state",
+      "pc_start": 995996,
+      "pc_end": 996006,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_dsp_dispatch_state.asm",
+      "spc_aram_start": 2138
+    },
+    {
+      "name": "bank1e_spc700_dsp_dispatch_flags",
+      "pc_start": 996006,
+      "pc_end": 996011,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_dsp_dispatch_flags.asm",
+      "spc_aram_start": 2148
+    },
+    {
+      "name": "bank1e_spc700_timer_poll",
+      "pc_start": 996011,
+      "pc_end": 996027,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_timer_poll.asm",
+      "spc_aram_start": 2153
+    },
+    {
+      "name": "bank1e_spc700_timer_service_gate",
+      "pc_start": 996027,
+      "pc_end": 996034,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_timer_service_gate.asm",
+      "spc_aram_start": 2169
+    },
+    {
+      "name": "bank1e_spc700_slow_service",
+      "pc_start": 996034,
+      "pc_end": 996071,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_slow_service.asm",
+      "spc_aram_start": 2176
+    },
+    {
+      "name": "bank1e_spc700_voice_scan_a",
+      "pc_start": 996071,
+      "pc_end": 996097,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_voice_scan_a.asm",
+      "spc_aram_start": 2213
+    },
+    {
+      "name": "bank1e_spc700_voice_scan_b",
+      "pc_start": 996097,
+      "pc_end": 996119,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_voice_scan_b.asm",
+      "spc_aram_start": 2239
+    },
+    {
+      "name": "bank1e_spc700_before_voice_dsp_service",
+      "pc_start": 996119,
+      "pc_end": 996242,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_voice_dsp_service",
+      "pc_start": 996242,
+      "pc_end": 996373,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_voice_dsp_service.asm",
+      "spc_aram_start": 2384
+    },
+    {
+      "name": "bank1e_spc700_dsp_selector_gate",
+      "pc_start": 996373,
+      "pc_end": 996381,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_dsp_selector_gate.asm",
+      "spc_aram_start": 2515
+    },
+    {
+      "name": "bank1e_spc700_write_dsp_ya",
+      "pc_start": 996381,
+      "pc_end": 996388,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_write_dsp_ya.asm",
+      "spc_aram_start": 2523
+    },
+    {
+      "name": "bank1e_spc700_read_stream_word",
+      "pc_start": 996388,
+      "pc_end": 996402,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_read_stream_word.asm",
+      "spc_aram_start": 2530
+    },
+    {
+      "name": "bank1e_spc700_stream_pointer_setup",
+      "pc_start": 996402,
+      "pc_end": 996433,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_stream_pointer_setup.asm",
+      "spc_aram_start": 2544
+    },
+    {
+      "name": "bank1e_spc700_voice_state_init",
+      "pc_start": 996433,
+      "pc_end": 996492,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_voice_state_init.asm",
+      "spc_aram_start": 2575
+    },
+    {
+      "name": "bank1e_spc700_after_voice_state_init_before_sequence_dispatch",
+      "pc_start": 996492,
+      "pc_end": 996699,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_sequence_dispatch",
+      "pc_start": 996699,
+      "pc_end": 996708,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_dispatch.asm",
+      "spc_aram_start": 2841
+    },
+    {
+      "name": "bank1e_spc700_before_sequence_resolver",
+      "pc_start": 996708,
+      "pc_end": 997982,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_sequence_resolver",
+      "pc_start": 997982,
+      "pc_end": 998010,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_resolver.asm",
+      "spc_aram_start": 4124
+    },
+    {
+      "name": "bank1e_spc700_sequence_e0",
+      "pc_start": 998010,
+      "pc_end": 998022,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_e0.asm",
+      "spc_aram_start": 4152
+    },
+    {
+      "name": "bank1e_spc700_sequence_e0_descriptor",
+      "pc_start": 998022,
+      "pc_end": 998047,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_e0_descriptor.asm",
+      "spc_aram_start": 4164
+    },
+    {
+      "name": "bank1e_spc700_sequence_e0_dsp_setup",
+      "pc_start": 998047,
+      "pc_end": 998099,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_e0_dsp_setup.asm",
+      "spc_aram_start": 4189
+    },
+    {
+      "name": "bank1e_spc700_sequence_e1",
+      "pc_start": 998099,
+      "pc_end": 998113,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_e1.asm",
+      "spc_aram_start": 4241
+    },
+    {
+      "name": "bank1e_spc700_sequence_e1_pan_setup",
+      "pc_start": 998113,
+      "pc_end": 998138,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_e1_pan_setup.asm",
+      "spc_aram_start": 4255
+    },
+    {
+      "name": "bank1e_spc700_sequence_e3",
+      "pc_start": 998138,
+      "pc_end": 998161,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_e3.asm",
+      "spc_aram_start": 4280
+    },
+    {
+      "name": "bank1e_spc700_vibrato_derived_value",
+      "pc_start": 998161,
+      "pc_end": 998177,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_vibrato_derived_value.asm",
+      "spc_aram_start": 4303
+    },
+    {
+      "name": "bank1e_spc700_between_vibrato_e7",
+      "pc_start": 998177,
+      "pc_end": 998200,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_control_e7",
+      "pc_start": 998200,
+      "pc_end": 998205,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_control_e7.asm",
+      "spc_aram_start": 4342
+    },
+    {
+      "name": "bank1e_spc700_between_sequence_e7_ed",
+      "pc_start": 998205,
+      "pc_end": 998275,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_sequence_ed",
+      "pc_start": 998275,
+      "pc_end": 998284,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_ed.asm",
+      "spc_aram_start": 4417
+    },
+    {
+      "name": "bank1e_spc700_between_sequence_ed_ef",
+      "pc_start": 998284,
+      "pc_end": 998313,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_sequence_ef",
+      "pc_start": 998313,
+      "pc_end": 998348,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_ef.asm",
+      "spc_aram_start": 4455
+    },
+    {
+      "name": "bank1e_spc700_before_control_fa",
+      "pc_start": 998348,
+      "pc_end": 998511,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_control_fa",
+      "pc_start": 998511,
+      "pc_end": 998514,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_control_fa.asm",
+      "spc_aram_start": 4653
+    },
+    {
+      "name": "bank1e_spc700_before_voice_work_pair",
+      "pc_start": 998514,
+      "pc_end": 998585,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_voice_work_pair",
+      "pc_start": 998585,
+      "pc_end": 998596,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_voice_work_pair.asm",
+      "spc_aram_start": 4727
+    },
+    {
+      "name": "bank1e_spc700_between_voice_work_pair_sequence_scanner",
+      "pc_start": 998596,
+      "pc_end": 998614,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_voice_pair_delta",
+      "pc_start": 998614,
+      "pc_end": 998624,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_voice_pair_delta.asm",
+      "spc_aram_start": 4756
+    },
+    {
+      "name": "bank1e_spc700_after_voice_pair_delta_before_sequence_scanner",
+      "pc_start": 998624,
+      "pc_end": 998921,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_sequence_scanner",
+      "pc_start": 998921,
+      "pc_end": 998959,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_scanner.asm",
+      "spc_aram_start": 5063
+    },
+    {
+      "name": "bank1e_spc700_sequence_flow",
+      "pc_start": 998959,
+      "pc_end": 998998,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_sequence_flow.asm",
+      "spc_aram_start": 5101
+    },
+    {
+      "name": "bank1e_spc700_note_tick_gate",
+      "pc_start": 998998,
+      "pc_end": 999037,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_note_tick_gate.asm",
+      "spc_aram_start": 5140
+    },
+    {
+      "name": "bank1e_spc700_vibrato_service",
+      "pc_start": 999037,
+      "pc_end": 999117,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_vibrato_service.asm",
+      "spc_aram_start": 5179
+    },
+    {
+      "name": "bank1e_spc700_voice_service_front",
+      "pc_start": 999117,
+      "pc_end": 999188,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_voice_service_front.asm",
+      "spc_aram_start": 5259
+    },
+    {
+      "name": "bank1e_spc700_voice_service_tail",
+      "pc_start": 999188,
+      "pc_end": 999238,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_voice_service_tail.asm",
+      "spc_aram_start": 5330
+    },
+    {
+      "name": "bank1e_spc700_voice_service_helper",
+      "pc_start": 999238,
+      "pc_end": 999280,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_voice_service_helper.asm",
+      "spc_aram_start": 5380
+    },
+    {
+      "name": "bank1e_spc700_before_port_handshake_prime",
+      "pc_start": 999280,
+      "pc_end": 999390,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1e_spc700_port_handshake_prime",
+      "pc_start": 999390,
+      "pc_end": 999395,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_port_handshake_prime.asm",
+      "spc_aram_start": 5532
+    },
+    {
+      "name": "bank1e_spc700_port_handshake",
+      "pc_start": 999395,
+      "pc_end": 999425,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_port_handshake.asm",
+      "spc_aram_start": 5537
+    },
+    {
+      "name": "bank1e_spc700_port_dispatch_tail",
+      "pc_start": 999425,
+      "pc_end": 999473,
+      "kind": "spc700_code",
+      "source": "decomp/spc700_port_dispatch_tail.asm",
+      "spc_aram_start": 5567
+    },
+    {
+      "name": "unclassified_after_bank1e_spc700_driver_payload",
+      "pc_start": 999473,
+      "pc_end": 1015808,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1f_entry_8000",
+      "pc_start": 1015808,
+      "pc_end": 1015870,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_entry_8000.asm"
+    },
+    {
+      "name": "bank1f_state_update_graph",
+      "pc_start": 1015870,
+      "pc_end": 1016001,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_state_update_graph.asm"
+    },
+    {
+      "name": "unclassified_bank1f_state_gap",
+      "pc_start": 1016001,
+      "pc_end": 1016016,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1f_state_return",
+      "pc_start": 1016016,
+      "pc_end": 1016024,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_state_return.asm"
+    },
+    {
+      "name": "bank1f_state_helper",
+      "pc_start": 1016024,
+      "pc_end": 1016085,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_state_helper.asm"
+    },
+    {
+      "name": "bank1f_clear_state",
+      "pc_start": 1016085,
+      "pc_end": 1016114,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_clear_state.asm"
+    },
+    {
+      "name": "bank1f_state_parameter_table",
+      "pc_start": 1016114,
+      "pc_end": 1016242,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "unclassified_before_bank1f_dispatch",
+      "pc_start": 1016242,
+      "pc_end": 1016626,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1f_dispatch_prologue",
+      "pc_start": 1016626,
+      "pc_end": 1016652,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_prologue.asm"
+    },
+    {
+      "name": "bank1f_dispatch_scan",
+      "pc_start": 1016652,
+      "pc_end": 1016702,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_scan.asm"
+    },
+    {
+      "name": "bank1f_dispatch_first_gate",
+      "pc_start": 1016702,
+      "pc_end": 1016711,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_first_gate.asm"
+    },
+    {
+      "name": "bank1f_dispatch_case_one",
+      "pc_start": 1016711,
+      "pc_end": 1016727,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_case_one.asm"
+    },
+    {
+      "name": "bank1f_dispatch_case_two",
+      "pc_start": 1016727,
+      "pc_end": 1016743,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_case_two.asm"
+    },
+    {
+      "name": "bank1f_dispatch_case_three",
+      "pc_start": 1016743,
+      "pc_end": 1016768,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_case_three.asm"
+    },
+    {
+      "name": "bank1f_dispatch_case_four",
+      "pc_start": 1016768,
+      "pc_end": 1016784,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_case_four.asm"
+    },
+    {
+      "name": "bank1f_dispatch_case_five",
+      "pc_start": 1016784,
+      "pc_end": 1016809,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_case_five.asm"
+    },
+    {
+      "name": "bank1f_dispatch_case_six",
+      "pc_start": 1016809,
+      "pc_end": 1016834,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_case_six.asm"
+    },
+    {
+      "name": "bank1f_dispatch_case_seven",
+      "pc_start": 1016834,
+      "pc_end": 1016868,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_case_seven.asm"
+    },
+    {
+      "name": "bank1f_dispatch_epilogue",
+      "pc_start": 1016868,
+      "pc_end": 1016872,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_epilogue.asm"
+    },
+    {
+      "name": "bank1f_dispatch_alt_prologue",
+      "pc_start": 1016872,
+      "pc_end": 1016898,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_dispatch_alt_prologue.asm"
+    },
+    {
+      "name": "bank1f_alt_dispatch_scan",
+      "pc_start": 1016898,
+      "pc_end": 1016948,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_alt_dispatch_scan.asm"
+    },
+    {
+      "name": "bank1f_alt_dispatch_first_gate",
+      "pc_start": 1016948,
+      "pc_end": 1016957,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_alt_dispatch_first_gate.asm"
+    },
+    {
+      "name": "bank1f_alt_dispatch_case_one",
+      "pc_start": 1016957,
+      "pc_end": 1016973,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_alt_dispatch_case_one.asm"
+    },
+    {
+      "name": "bank1f_alt_dispatch_case_two",
+      "pc_start": 1016973,
+      "pc_end": 1016989,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_alt_dispatch_case_two.asm"
+    },
+    {
+      "name": "bank1f_alt_dispatch_case_three",
+      "pc_start": 1016989,
+      "pc_end": 1017014,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_alt_dispatch_case_three.asm"
+    },
+    {
+      "name": "bank1f_alt_dispatch_case_four",
+      "pc_start": 1017014,
+      "pc_end": 1017030,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_alt_dispatch_case_four.asm"
+    },
+    {
+      "name": "bank1f_alt_dispatch_case_five",
+      "pc_start": 1017030,
+      "pc_end": 1017055,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_alt_dispatch_case_five.asm"
+    },
+    {
+      "name": "bank1f_alt_dispatch_case_six",
+      "pc_start": 1017055,
+      "pc_end": 1017080,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_alt_dispatch_case_six.asm"
+    },
+    {
+      "name": "bank1f_alt_dispatch_case_seven",
+      "pc_start": 1017080,
+      "pc_end": 1017113,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_alt_dispatch_case_seven.asm"
+    },
+    {
+      "name": "unclassified_after_bank1f_alt_case_seven",
+      "pc_start": 1017113,
+      "pc_end": 1017118,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1f_alternate_dispatch_table",
+      "pc_start": 1017118,
+      "pc_end": 1017982,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1f_sound_write_port0",
+      "pc_start": 1017982,
+      "pc_end": 1017995,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_write_port0.asm"
+    },
+    {
+      "name": "bank1f_sound_write_port0_masked",
+      "pc_start": 1017995,
+      "pc_end": 1018024,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_write_port0_masked.asm"
+    },
+    {
+      "name": "bank1f_sound_write_port1",
+      "pc_start": 1018024,
+      "pc_end": 1018037,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_write_port1.asm"
+    },
+    {
+      "name": "bank1f_sound_write_port1_masked",
+      "pc_start": 1018037,
+      "pc_end": 1018066,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_write_port1_masked.asm"
+    },
+    {
+      "name": "bank1f_sound_write_port2",
+      "pc_start": 1018066,
+      "pc_end": 1018079,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_write_port2.asm"
+    },
+    {
+      "name": "bank1f_sound_write_port2_masked",
+      "pc_start": 1018079,
+      "pc_end": 1018108,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_write_port2_masked.asm"
+    },
+    {
+      "name": "bank1f_sound_write_port3",
+      "pc_start": 1018108,
+      "pc_end": 1018121,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_write_port3.asm"
+    },
+    {
+      "name": "bank1f_sound_start",
+      "pc_start": 1018121,
+      "pc_end": 1018168,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_start.asm"
+    },
+    {
+      "name": "bank1f_sound_handshake",
+      "pc_start": 1018168,
+      "pc_end": 1018223,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_handshake.asm"
+    },
+    {
+      "name": "bank1f_sound_variant",
+      "pc_start": 1018223,
+      "pc_end": 1018270,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_variant.asm"
+    },
+    {
+      "name": "bank1f_sound_variant_handshake",
+      "pc_start": 1018270,
+      "pc_end": 1018325,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_variant_handshake.asm"
+    },
+    {
+      "name": "unclassified_after_bank1f_sound_write_port3",
+      "pc_start": 1018325,
+      "pc_end": 1018468,
+      "kind": "unknown",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1f_apu_upload",
+      "pc_start": 1018468,
+      "pc_end": 1018567,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_apu_upload.asm"
+    },
+    {
+      "name": "bank1f_sound_command_parameters",
+      "pc_start": 1018567,
+      "pc_end": 1018579,
+      "kind": "data",
+      "source": "decomp/bank1f_sound_command_table.asm"
+    },
+    {
+      "name": "bank1f_sound_event_parameter_table",
+      "pc_start": 1018579,
+      "pc_end": 1018783,
+      "kind": "data",
+      "source": "base_rom"
+    },
+    {
+      "name": "bank1f_sound_consumer_prologue",
+      "pc_start": 1018783,
+      "pc_end": 1018815,
+      "kind": "65816_code",
+      "source": "decomp/bank1f_sound_consumer_prologue.asm"
+    },
+    {
+      "name": "unclassified_after_bank1f_sound_consumer_prologue",
+      "pc_start": 1018815,
+      "pc_end": 1048576,
+      "kind": "unknown",
+      "source": "base_rom"
+    }
+  ]
+}

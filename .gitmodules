@@ -1,0 +1,9 @@
+[submodule "snesrecomp"]
+	path = snesrecomp
+	url = https://github.com/navjack/snesrecomp.git
+[submodule "third_party/asar"]
+	path = third_party/asar
+	url = https://github.com/RPGHacker/asar.git
+[submodule "third_party/imgui"]
+	path = third_party/imgui
+	url = https://github.com/ocornut/imgui.git
